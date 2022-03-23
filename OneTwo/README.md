@@ -6,10 +6,18 @@ compile using:
 
 example usage:
 > ./out abc
+```
 bca
+```
 > ./out nhk
+```
 hkn
+```
 > ./out Drexel
+```
 reDelx
+```
 > ./out rcpe
+```
 cpre
+```

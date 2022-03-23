@@ -6,10 +6,18 @@ compile using:
 
 example usage:
 > ./out 1
+```
 1
+```
 > ./out 2
+```
 2
+```
 > ./out 3
+```
 6
+```
 > ./out 4
+```
 24
+```

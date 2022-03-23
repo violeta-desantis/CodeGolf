@@ -6,4 +6,6 @@ compile using:
 
 example usage:
 > ./out
+```
 2022
+```
