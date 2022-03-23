@@ -1,0 +1,1 @@
+main(c,v)char**v;{int a=c=atoi(*++v);for(;c>1;a*=--c);printf("%d",a);}

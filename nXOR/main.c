@@ -1,0 +1,1 @@
+main(c,v)char**v;{int a;for(;c>1;)a^=*v[--c]-48;printf("%d",a);}

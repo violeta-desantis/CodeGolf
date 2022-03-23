@@ -1,0 +1,1 @@
+main(c,v)char**v;{c=0;char*s=v[1],t;while(s[++c])if(c%3){t=s[c-1];s[c-1]=s[c];s[c]=t;}printf("%s\n",s);}
