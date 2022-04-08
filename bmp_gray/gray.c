@@ -1,0 +1,3 @@
+#include<stdio.h>
+#define z(a,i)fread(a,i,1,s),fwrite(a,i,1,d);
+typedef struct H{char x[4],y[28];int w,h;}H;main(c,v)char**v;{FILE*s=fopen(v[1],"rb");FILE*d=fopen("g.bmp","wb");char t[14];z(t,14)H h;z(h.x,4)z(&h.w,4)z(&h.h,4)z(h.y,28)int b=((24*h.w+31)/32)*4;unsigned char p[3];for(int j=0;j<h.h;++j){int k;for(k=0;k<h.w;++k)fread(p,3,1,s),p[0]=p[1]=p[2]=(p[0]+p[1]+p[2])/3,fwrite(p,3,1,d);if(b-k*3>0)z(p,b-k*3)}}
