@@ -9,3 +9,10 @@ In this version, all error checking, good practice, comments, and readability ha
 Like the original, this version requires 24-bit color depth, the BITMAPINFOHEADER type, and no file compression.
 
 However, all error checking code has been removed to minimize byte count - so if the provided file is not in the proper format this will almost certainly segfault.
+
+Example usage:
+
+> ./gray filename.bmp
+```
+[see grayscale output in g.bmp]
+```
