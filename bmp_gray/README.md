@@ -1,4 +1,4 @@
-# BMP RGB-to-Grayscale Converter (in 413 bytes)
+# BMP RGB-to-Grayscale Converter (in 333 bytes)
 
 An extremely shortened / unreadable version of this code: https://github.com/violeta-desantis/BMP-RGB-to-Grayscale
 
